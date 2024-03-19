@@ -3,4 +3,4 @@
 hello = range(0, 99)
 
 for x in hello:
-   print('{:d} = {:#x}'.format(x, x))
+    print('{:d} = {:#x}'.format(x, x))
