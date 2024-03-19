@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
-alphabit = list('abcdfghijklmnoprstuvwxyz')
+alphabit = range(ord('a'), ord('z') + 1)
 
 for x in alphabit:
-    if x in ['q', 'e']:
+    if chr(x) in ['q', 'e']:
         pass
     else:
         print(x, end='')

@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-alphabit = 'abcdefghijklmnopqrstuvwxyz'
-print(alphabit, end='')
+alphabit = range(ord('a'), ord('z')+1)
+for x in alphabit:
+    print(a, end='')

@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for i in range(0, 8):
-    for j in range(i + 1, 10):
-        print(f'{i}{j}', end=', ')
-print(f'{i+1}{j}')
+for x in range(0, 8):
+    for y in range(i + 1, 10):
+        print('{:d}{:d}'.format(x, y), end=', ')
+print('{:d}{:d}'.format(x+1, y))
