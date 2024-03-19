@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 alphabit = range(ord('a'), ord('z')+1)
 for x in alphabit:
-    print('{}'.format(a), end='')
+    print('{}'.format(x), end='')
