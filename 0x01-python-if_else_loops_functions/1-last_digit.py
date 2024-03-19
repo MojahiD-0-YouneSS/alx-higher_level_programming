@@ -8,5 +8,5 @@ if number_ > 5:
 elif  number_ == 0:
     out += '{} '.format(number_) + 'and is 0'
 else:
-    out += '{} '.format(number_) + 'and is less than 6 and not 0'
+    out += '{} '.format(number_*-1) + 'and is less than 6 and not 0'
 print(out)
