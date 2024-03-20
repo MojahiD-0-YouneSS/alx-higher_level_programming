@@ -5,14 +5,14 @@ if __name__ != '__main__':
     print('exiting !!')
     exit()
 
-arg_str = '{} argument'
+argstr = '{} argument'
 argc = len(sys.argv)-1
 if argc == 0:
-    arg_str += 's.'
+    argstr += 's.'
 elif arg c == 1:
-    arg_str += ':'
+    argstr += ':'
 else:
-    arg_str += 's:'
+    argstr += 's:'
 print(arg_str.format(argc))
 
 i = 0
